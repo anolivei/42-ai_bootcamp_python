@@ -6,7 +6,7 @@
 #    By: anolivei <anolivei@student.42sp.org>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/04/13 09:52:01 by anolivei          #+#    #+#              #
-#    Updated: 2020/04/13 10:50:30 by anolivei         ###   ########.fr        #
+#    Updated: 2020/04/13 10:54:14 by anolivei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,5 +27,7 @@ def function():
         print("I'm Odd.")
         return (0)
 
+# This conditional is used to check whether a python module is being run 
+# directly or being imported
 if __name__ == '__main__':
     function()
