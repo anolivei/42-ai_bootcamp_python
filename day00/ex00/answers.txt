@@ -1,5 +1,5 @@
 // Output a list of installed package
-pip freeze
+pip list | cut -d ' ' -f 1 | cat -e
 
 // Output a list of installed package and thier version
 pip list
